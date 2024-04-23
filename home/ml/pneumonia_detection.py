@@ -7,7 +7,7 @@ import tensorflow as tf
 from django.conf import settings
 import random
 
-main_path = os.getcwd() + '/project/ml/'
+main_path = os.getcwd() + '/home/ml/'
 with open(main_path + 'data/pneumonia_package.json', 'r') as f:
     classes = json.load(f)
     f.close()
