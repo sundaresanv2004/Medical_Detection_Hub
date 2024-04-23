@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Detection Hub</title>
+    <link rel="stylesheet" href="{% static 'style/upload.css' %}" />
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <h2 class="logo"><a href="{% url 'home' %}">Medical Detection Hub</a></h2>
+    </nav>
+</header>
+<section class="home">
+    <div class="form_container">
+        <div class="loader">
+            <div class="loader-text">Processing...</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="text">
+            <h1>{{ category.title }}</h1>
+            <p>{{ category.description }}</p>
+        </div>
+        <div class="container">
+            <form method="POST" enctype="multipart/form-data" action="">
+                {% csrf_token %}
+                {{ form.image }}
+                <div id="num-of-files"></div>
+                <ul id="files-list"></ul>
+                <input type="submit" value="Upload" class="form-open" id="myBtn" />
+            </form>
+        </div>
+        <div class="contain-1">
+            <p>Upload Image Type : {{ category.file_desc }}</p>
+        </div>
+    </div>
+</section>
+<script src="{% static 'script/script.js' %}"></script>
+</body>
+</html>

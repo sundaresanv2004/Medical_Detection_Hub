@@ -1,0 +1,37 @@
+{
+  "0": {
+    "short_name": "akiec",
+    "full_name": "Actinic Keratoses",
+    "description": "Actinic keratoses are precancerous lesions resulting from prolonged sun exposure. They often present as dry, scaly patches or rough spots on the skin. While they may not always develop into cancer, they should be monitored and treated to reduce the risk of progression."
+  },
+  "1": {
+    "short_name": "bcc",
+    "full_name": "Basal Cell Carcinoma",
+    "description": "Basal cell carcinoma is a common form of skin cancer that arises from the basal cells in the skin's outer layer. It typically appears as a waxy, pearly bump, and it is slow-growing. Though it rarely spreads to other parts of the body, prompt treatment is necessary to prevent damage to surrounding tissues."
+  },
+  "2": {
+    "short_name": "bkl",
+    "full_name": "Benign Keratosis-Like Lesions",
+    "description": "Benign keratosis-like lesions are non-cancerous skin growths that can resemble other more serious conditions. They often manifest as rough, scaly patches on the skin. While generally harmless, accurate diagnosis is essential to differentiate them from potentially malignant lesions."
+  },
+  "3": {
+    "short_name": "df",
+    "full_name": "Dermatofibroma",
+    "description": "Dermatofibromas are benign skin growths that often appear as small, firm bumps. They are typically brown and may darken with time. Dermatofibromas are generally harmless, but they can be surgically removed if necessary for cosmetic or comfort reasons."
+  },
+  "4": {
+    "short_name": "nv",
+    "full_name": "Melanocytic Nevi",
+    "description": "Melanocytic nevi, often referred to as moles, are common non-cancerous growths that arise from the pigment-producing cells (melanocytes) in the skin. They are typically brown or black and can appear anywhere on the body. While most nevi are harmless, some changes in size, shape, or color may warrant medical attention."
+  },
+  "5": {
+    "short_name": "vasc",
+    "full_name": "Vascular Lesions",
+    "description": "Vascular lesions involve abnormalities in blood vessels and can manifest as birthmarks, hemangiomas, or other vascular growths on the skin. While many are benign, some may require medical attention, especially if they cause discomfort or cosmetic concerns."
+  },
+  "6": {
+    "short_name": "mel",
+    "full_name": "Melanoma",
+    "description": "Melanoma is a type of skin cancer that originates in the melanocytes. It is known for its potential to spread to other parts of the body. Melanomas often exhibit irregular shapes, uneven coloring, and may evolve over time. Early detection and intervention are crucial for effective treatment and improved outcomes."
+  }
+}

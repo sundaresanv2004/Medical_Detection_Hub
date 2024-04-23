@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Detection Hub</title>
+    <link rel="stylesheet" href="{% static 'style/result.css' %}">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <h2 class="logo"><a href="{% url 'home' %}">Medical Detection Hub</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+        </label>
+        <ul class="all-links">
+            <li><a href="{% url 'home' %}">Home</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="about-us">
+    <div class="about">
+        <img src="{{ form.image.url }}" class="pic" />
+        <div class="text">
+            <h2>{{ form.result }}</h2>
+            <h5><span>{{ category.title }}</span></h5>
+            <div class="skill-box">
+                <span class="title">Confidence</span>
+                <div class="skill-bar">
+                    <span style="width: {{ form.score }}%" class="skill-per">
+                        <span class="tooltip">{{ form.score }}%</span>
+                    </span>
+                </div>
+            </div>
+          <p>{{ form.description }}</p>
+          <div class="data">
+            <a href="{% url 'home' %}" class="hire">Return to Home Page</a>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>

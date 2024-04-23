@@ -1,0 +1,4 @@
+{
+  "Normal": "Great news! Your medical image analysis indicates a normal condition. No signs of abnormalities related to the analyzed parameters were detected.",
+  "Pneumonia": "We recommend consulting with a healthcare professional for a detailed diagnosis and a personalized treatment plan. Early intervention is essential for a swift and smooth recovery. If you have any concerns or questions, please reach out to your healthcare provider."
+}
