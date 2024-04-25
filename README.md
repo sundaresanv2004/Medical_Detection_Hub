@@ -1,5 +1,4 @@
 # Medical Detection Hub
-
 The Medical Detection Hub is an open-source project aimed at providing accessible and reliable detection solutions for medical conditions. This repository offers a user-friendly web interface for detecting skin cancer and pneumonia through image uploads. The project leverages advanced machine learning models to enhance early diagnosis and intervention in medical conditions.
 
 ## Features
