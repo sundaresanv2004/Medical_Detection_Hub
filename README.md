@@ -18,9 +18,9 @@ To use the Medical Detection Hub, follow these steps:
 4. Upload medical images and obtain detection results.
 
 
-Create the model from home/ml/model_dev and move the model to a home/ml/models/  with following file names 
-home/ml/models/Skin_Cancer.h5
-home/ml/models/pneumonia_cnn_model.h5
+* Create the model from home/ml/model_dev and move the model to a home/ml/models/  with following file names 
+* home/ml/models/Skin_Cancer.h5
+* home/ml/models/pneumonia_cnn_model.h5
 
 ## License
 
