@@ -17,6 +17,11 @@ To use the Medical Detection Hub, follow these steps:
 3. Run the application locally or deploy it to a web server.
 4. Upload medical images and obtain detection results.
 
+
+Create the model from home/ml/model_dev and move the model to a home/ml/models/  with following file names 
+home/ml/models/Skin_Cancer.h5
+home/ml/models/pneumonia_cnn_model.h5
+
 ## License
 
 This project is licensed under the MIT License.
